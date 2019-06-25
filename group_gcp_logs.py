@@ -96,5 +96,6 @@ def join_gae_log_dumps(log_names):
 if __name__ == '__main__':
     if sys.argv[1] == '--join':
         join_gae_log_dumps(sys.argv[2:])
+        prepare_grouped_json(JOINED_FILENAME)
     else:
         prepare_grouped_json(sys.argv[1])
