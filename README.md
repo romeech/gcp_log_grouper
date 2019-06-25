@@ -100,3 +100,4 @@ The script can also join several log dumps into one (if you need to analyse logs
 ```
 python group_gcp_logs.py --join file1.json file2.json file3.json
 ```
+and process the file with joined records.
