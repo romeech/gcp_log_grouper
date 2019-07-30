@@ -1,5 +1,5 @@
 # gcp_log_grouper
-A script to group log records dumped from Google Cloud Logging by GCP > Logging > Download logs (JSON).
+A script to group log records dumped from **Google Cloud Logging by GCP > Logging > Download logs** (JSON).
 Convert flat collection of JSON-objects representing log records into 2-level dictionary: Resource-Method-Errors.
 
 Command:
